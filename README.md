@@ -13,6 +13,7 @@ In case of othre errors, the API might have changed..
 This tool was originally developed in March 2022 and last tested in September 2022.
 
 ## Build
+*You can skip this if you download a pre-built binary from the [Releases](https://github.com/Nirusu/ticket-to-magic/releases) page.*
 
 You need to have [Go](https://go.dev/) installed. This was tested using Go 1.18 and Go 1.19. 
 
