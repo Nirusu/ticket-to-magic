@@ -61,6 +61,12 @@ type Facility struct {
 }
 
 func main() {
+	// Check if user supplied an argument. Otherwise, print usage and quit.
+	if len(os.Args) < 2 {
+		fmt.Println("Usage:", os.Args[0], "yyyy-mm-dd")
+		return
+	}
+
 	// Parse target time from command line (YYYY-MM-DD)
 	targetDate := os.Args[1]
 	targetTime, err := time.Parse(DateLayout, targetDate)
